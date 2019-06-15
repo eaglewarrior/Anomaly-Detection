@@ -60,6 +60,10 @@ I have used H2O library to make the autoencoder and I got about 83% of recall sc
 
 
 
+## How does autoencoder help us in detecting outliers?
+
+From train set we have removed distressed data or points with 1 as target.But in testing set has both normal and distress transactions in it. The Autoencoder will learn to identify the pattern of the input data. If an anomalous test point does not match the learned pattern, the autoencoder will likely have a high error rate in reconstructing this data, indicating anomalous data. So that we can identify the anomalies of the data. To calculate the error, it uses Mean Squared Error(MSE)
+
 
 
 

@@ -47,6 +47,10 @@ Out of which **Isolation Forest** gave better results so I thought to use Isolat
 
 I had approx 3.7% of anomalies in my dataset , I tried using Isolation forest and by tuning it parameter I got about 45 % of recall score .Remember as we have only 3.7% of data which is anomaly so accuracy is not at all a good metric to judge our algorithm so we need to measure performance using confusion metric , recall score or F1 score.
 
+## How Isolation Forests Work
+
+The Isolation Forest algorithm isolates observations by randomly selecting a feature and then randomly selecting a split value between the maximum and minimum values of the selected feature. The logic argument goes: isolating anomaly observations is easier because only a few conditions are needed to separate those cases from the normal observations. On the other hand, isolating normal observations require more conditions. Therefore, an anomaly score can be calculated as the number of conditions required to separate a given observation.
+
 ## Approach -III
 
 Autoencoder in deeplearning is mostly used to get rid of redundant data but one more of it's use case is to detect anomaly

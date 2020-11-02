@@ -1,22 +1,8 @@
 # Anomaly-Detection
 This repo depicts the techniques I have tried to detect anamolies in a dataset .
 
-# Contributing for Hacktoberfest 2020
-To contribute to this repo:
-
-Star it
-
-Fork the repo
-
-Clone it onto your PC.
-
-Create a folder with your github username
-
-Create seperate files for all the issues you are solving and always open an issue which has all details of the process or method you will use to perform anomaly detection and wait till its is assigned (not more than 2-3 hours it will take , we are passionate open source developers )
-
-Open PRs for the issues you are solving. (You can open multiple PRs for different issues by branching).
-
 ## Data description :
+Financial domain data 
 
 ## Predict Financial crisis 
 
